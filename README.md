@@ -1,17 +1,27 @@
 # Campus Resource Management in C
 
-A menu-driven C project for managing campus equipment and resources while learning Data Structures.
+Two practical, menu-driven C programs built around a campus equipment desk. They use equipment IDs to demonstrate array operations, searching, and sorting.
 
 ## Programs
 
-### Lab 1 — Campus Equipment Inventory Operations
+### Program 1 — Campus Equipment Inventory
 
-[programs/campus_equipment_inventory.c](programs/campus_equipment_inventory.c) implements array insertion and deletion at the beginning, end, or a position; iterative and recursive linear search; and inventory display.
+[programs/campus_equipment_inventory.c](programs/campus_equipment_inventory.c)
 
-### Lab 2 — Campus Equipment Search and Sorting
+Manage an equipment ID list stored in a one-dimensional array. Add or remove IDs at the beginning, end, or a selected position, search with iterative or recursive linear search, and display the current list.
 
-[programs/campus_equipment_search_sort.c](programs/campus_equipment_search_sort.c) sorts equipment IDs in ascending order with Bubble Sort and searches using iterative or recursive Binary Search.
+**Concepts:** arrays, insertion, deletion, iterative search, recursion.
 
-Lab 2 is listed as 100 points in the assignment brief; no point-by-point breakdown was provided. The Lab 1 summary reflects earlier discussion; an official Lab 1 rubric was not available.
+### Program 2 — Campus Equipment Lookup and Sorting
 
-Each source file is a standalone lab exercise using equipment IDs as a campus scenario, not a complete resource-management system. Compile and run one C file at a time in Dev-C++ or another C compiler.
+[programs/campus_equipment_search_sort.c](programs/campus_equipment_search_sort.c)
+
+Sort the equipment IDs in ascending order, then find an ID with iterative or recursive binary search. The menu also lets the user display the sorted list.
+
+**Concepts:** Bubble Sort, binary search, iteration, recursion, menu-driven program design.
+
+Both programs currently work with integer equipment IDs in arrays. They are standalone demonstrations of these operations, rather than a complete campus resource-management system.
+
+## Run
+
+Open either .c file in Dev-C++ or another C compiler, then compile and run it.
